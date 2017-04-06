@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Basic Crude</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <style>
+            .jumbotron{
+                width: 600px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        
+    </head>
+
+<body class="jumbotron">
+    <center> 
+        <h2>CRUD</h2>
+        <h4> Usuários </h4>
+        <br>
+    </center>
+
+    <table class="table table-striped" align="center">
+            
+        <tr>
+            <td><h4>Nome</h4></td>
+            <td><h4>Telefone</h4></td>
+            <td><h4>Estado</h4></td>
+            <td><h4>Cidade</h4></td>
+            <td><h4></h4></td>
+            <td><h4></h4></td>
+        </tr>
+
+        <tr>
+            <td>Alaor</td>
+            <td>(62)98222-8192</td>
+            <td>GO</td>
+            <td>Goiania</td>
+            <td><form action="editar.html" method="get">
+                <input type="submit" value="editar" name="Submit" id="frm1_submit" class="btn btn-link btn" />
+            </form></td>
+            <td><form action="deletar.html" method="get">
+                <input type="submit" value="deletar" name="Submit" id="frm1_submit" class="btn btn-md btn-danger" />
+            </form></td>
+        </tr>
+
+        <tr>
+            <td>Susanny</td>
+            <td>(62)99712-2212</td>
+            <td>GO</td>
+            <td>Goiania</td>
+            <td><form action="editar.html" method="get">
+                <input type="submit" value="editar" name="Submit" id="frm1_submit" class="btn btn-link btn" />
+            </form></td>
+            <td><form action="deletar.html" method="get">
+                <input type="submit" value="deletar" name="Submit" id="frm1_submit" class="btn btn-md btn-danger" />
+            </form></td>
+        </tr>
+
+        </table>
+
+        <center>
+        <br>
+        <form action="novo.html" method="get">
+                <input type="submit" value="Novo" name="Submit" id="frm1_submit" class="btn btn-md btn-primary btn-block"/>
+        </form>
+        </center>
+
+</body>
+    
+
+</html>
