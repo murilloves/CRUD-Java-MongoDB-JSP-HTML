@@ -9,7 +9,7 @@ public class Usuario {
 
     private static int qtd;
 
-// SETs    
+// SETs
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -43,11 +43,10 @@ public class Usuario {
         return this.cidade;
     }
 
-/*
+    // Exibe dados
     public String mostraDados(){
-        String str = ("Matricula - "+matricula+" - "+nome+" - Departamento: "+departamento+" - Cargo: "+cargo);
+        String str = (getNome()+" , "+getTelefone()+" , "+getEstado()+" , "+getCidade());
         return str;
     }
-*/
 
 }
