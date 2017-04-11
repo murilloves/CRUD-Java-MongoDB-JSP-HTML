@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inserir novo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <style>
+            .jumbotron{
+                width: 600px;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        
+    </head>
+    <body class="jumbotron">
+    <div class="row clearfix primeira_row" style="margin-left: 5%; margin-right: 5%;">
+        
+        <div align="center">
+            <h3>Insira os dados do novo contato</h3>
+            <br>
+        </div>
+        
+        <form action="inserirformulario.jsp" class="col-md-12" style="padding: 0%;" >
+
+        <div class="col-md-12">
+            <div class="col-md-12" style="margin-top: 2%;">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" class="form-control" id="nome">
+            </div>
+            <div class="col-md-12" style="margin-top: 2%;">
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" class="form-control" id="telefone">
+            </div>
+        </div>
+        <div class="col-md-12" style="margin-top: 2%;">
+            <div class="col-md-6">
+                <label for="nome">Estado:</label>
+                <input type="text" name="estado" class="form-control" id="estado">
+            </div>
+            <div class="col-md-6">
+                <label for="nome">Cidade:</label>
+                <input type="text" name="cidade" class="form-control" id="cidade">
+            </div>
+        </div>
+        <div class="col-md-12 btn-lg" style="margin-top: 2%;">
+            <div class="col-md-12" style="margin-top: 2%;">
+                <input type="submit" value="Cadastrar" name="Submit" id="frm1_submit" class="btn btn-md btn-lg btn-success btn-block"/>
+            </div>
+            <div class="col-md-12" style="margin-top: 2%;">
+                <input type="reset" value="Redefinir" name="Submit" id="frm1_submit" class="btn btn-md btn-lg btn-default btn-block"/>
+            </div>
+        </div>
+
+            <form action="novousuario.html" method="get">
+                    
+        </form>
+
+    </div>
+    </body>
+</html>
